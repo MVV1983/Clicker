@@ -79,7 +79,7 @@ public class Mainwindow extends JPanel {
                 int y = row * heigth + (row + 1) * margin;//запиилил ряд квадратов
                 int x = col * width + (col + 1) * margin;
                 if (mas[row][col] == 1) {
-                    g.setColor(Color.green);
+                    g.setColor(Color.blue);
                     g.fillRect(x, y, heigth, width);
 
                 } else {
